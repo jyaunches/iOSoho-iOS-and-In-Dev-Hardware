@@ -1,0 +1,44 @@
+Talk Outline
+
+Intro to Me
+-> Web -> iOS -> Hardware
+-> goTenna -> Grow
+
+Concepts
+
+- Standard development need vs. hardware/firmware development needs
+
+- Goals 
+	- delight customer
+	- provide stability
+	- reliable integrate w/ 3rd parties
+	- handling failures gracefully
+
+- Testing standard integration points (APIs) vs hardware integration points
+- Players: Consumers, Developers (FW & Mobile), Field Testers
+- Diagnosing issues on a standard project (differences w/ )
+
+Your domain vs. external domains
+
+In most mobile apps, you are the primary user experience interface.. it's up to you to gracefully handle failures that occur down the chain.
+
+External domain is an in-development 
+	- Arguing that you need heightened awareness to be able to quickly diagnos problems
+	- Applies to all in-dev integration points
+	- What you generally do if it's an API
+		- Manually or automatically hit it with requests... ensure responses are as expected.
+		- If they aren't you say hey API person, 'here's the request that fails'.
+		- They can go in.. examine logs. And most of the time reproduce the problem with an identical request
+
+	- Field testing encompasses the validation of not just your SW/app, but that of these external services
+		- show Ven of problem domain for field testing an app with established integration points vs. not?
+
+Extra Constraints in HW/FW
+	- device is not necessarily connected to internet
+	- HW/FW in dev and changing
+	- storage needs/constraints can limit the ability to keep logs on the device
+	- power needs/constraints can limit the 
+
+piece of hardware (pic of 4 Grow boards)
+
+
